@@ -1,0 +1,31 @@
+[package]
+name = "sensor-data-analyzer-core"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "Core primitives and operations for analyzing sensor data by leveraging semantic environment models."
+
+[dependencies]
+ecoord = { version = "0.0.1-alpha.3" }
+epoint = { version = "0.0.1-alpha.3" }
+erosbag = { version = "0.0.1-alpha.3" }
+emesh = { version = "0.0.1-alpha.3" }
+emesh-converter = { version = "0.0.1-alpha.3" }
+egraphics = { version = "0.0.1-alpha.3" }
+
+thiserror = { workspace = true }
+tokio = { workspace = true, features = ["full"] }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+dotenvy = { workspace = true }
+diesel = { workspace = true, features = ["postgres", "r2d2", "postgres_backend"] }
+diesel-async = { workspace = true, features = ["postgres", "deadpool"] }
+postgis_diesel = { workspace = true }
+itertools = { workspace = true }
+polars = { workspace = true }
+ndarray = { workspace = true }
+chrono = { workspace = true }
+rayon = { workspace = true }
+nalgebra = { workspace = true }

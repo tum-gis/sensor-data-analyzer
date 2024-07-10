@@ -1,0 +1,35 @@
+name: CI
+
+on:
+  push:
+    branches:
+    - main
+    - develop
+  pull_request: {}
+
+
+jobs:
+
+  build:
+    name: cargo build
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dtolnay/rust-toolchain@stable
+    - name: Build
+      run: cargo build
+
+  test:
+    name: cargo test
+    runs-on: ubuntu-latest
+    steps:
+    - uses: actions/checkout@v4
+    - uses: dtolnay/rust-toolchain@stable
+      with:
+        components: rustfmt clippy
+    - name: rustfmt
+      run: cargo fmt --all -- --check
+    - name: clippy
+      run: cargo clippy
+    - name: test
+      run: cargo test --verbose

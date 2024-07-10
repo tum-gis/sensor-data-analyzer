@@ -1,0 +1,25 @@
+[package]
+name = "sensor-data-analyzer-cli"
+version.workspace = true
+authors.workspace = true
+edition.workspace = true
+license.workspace = true
+repository.workspace = true
+description = "CLI tool for analyzing sensor data by leveraging semantic environment models."
+
+[dependencies]
+sensor-data-analyzer = { version = "0.0.1-alpha.3", path = "../sensor-data-analyzer" }
+
+erosbag = { workspace = true }
+epoint = { workspace = true }
+ecoord = { workspace = true }
+
+thiserror = { workspace = true }
+clap = { workspace = true, features = ["derive"] }
+humantime = { workspace = true }
+dotenvy = { workspace = true }
+tracing = { workspace = true }
+tracing-subscriber = { workspace = true }
+tokio = { workspace = true, features = ["full"] }
+sysinfo = { workspace = true }
+chrono = { workspace = true }

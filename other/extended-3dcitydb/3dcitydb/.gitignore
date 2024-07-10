@@ -1,0 +1,10 @@
+.gradle/
+gradle.properties
+build/
+postgresql/build.sh
+oracle/build.sh
+
+# Intellij
+.idea/
+*.iml
+*.iws
