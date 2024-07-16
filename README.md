@@ -9,7 +9,7 @@ In order to associate, analyze, and enrich the sensor data in a scalable manner,
 
 Build and start the [extended-3dcitydb](other/extended-3dcitydb) provided as a Docker container.
 
-Set up a [Rust development environment] and install the [Diesel CLI](https://diesel.rs/guides/getting-started):
+Set up a [Rust development environment](https://www.rust-lang.org/tools/install) and install the [Diesel CLI](https://diesel.rs/guides/getting-started):
 
 ```bash
 cargo install diesel_cli
