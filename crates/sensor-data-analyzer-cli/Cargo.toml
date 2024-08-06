@@ -8,7 +8,7 @@ repository.workspace = true
 description = "CLI tool for analyzing sensor data by leveraging semantic environment models."
 
 [dependencies]
-sensor-data-analyzer = { version = "0.0.1-alpha.3", path = "../sensor-data-analyzer" }
+sensor-data-analyzer = { version = "0.0.1-alpha.4", path = "../sensor-data-analyzer" }
 
 erosbag = { workspace = true }
 epoint = { workspace = true }

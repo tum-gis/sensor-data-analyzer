@@ -1,8 +1,0 @@
-{
-  "identifier": "core:String",
-  "table": "property",
-  "value": {
-    "column": "val_string",
-    "type": "string"
-  }
-}

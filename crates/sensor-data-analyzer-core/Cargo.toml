@@ -8,12 +8,12 @@ repository.workspace = true
 description = "Core primitives and operations for analyzing sensor data by leveraging semantic environment models."
 
 [dependencies]
-ecoord = { version = "0.0.1-alpha.3" }
-epoint = { version = "0.0.1-alpha.3" }
-erosbag = { version = "0.0.1-alpha.3" }
-emesh = { version = "0.0.1-alpha.3" }
-emesh-converter = { version = "0.0.1-alpha.3" }
-egraphics = { version = "0.0.1-alpha.3" }
+ecoord = { version = "0.0.1-alpha.4" }
+epoint = { version = "0.0.1-alpha.4" }
+erosbag = { version = "0.0.1-alpha.4" }
+emesh = { version = "0.0.1-alpha.4" }
+emesh-converter = { version = "0.0.1-alpha.4" }
+egraphics = { version = "0.0.1-alpha.4" }
 
 thiserror = { workspace = true }
 tokio = { workspace = true, features = ["full"] }

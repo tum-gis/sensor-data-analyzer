@@ -1,0 +1,6 @@
+[submodule "other/extended-3dcitydb/3dcitydb"]
+	path = other/extended-3dcitydb/3dcitydb
+	url = https://github.com/3dcitydb/3dcitydb.git
+[submodule "other/extended-3dcitydb/pgpointcloud"]
+	path = other/extended-3dcitydb/pgpointcloud
+	url = https://github.com/pgpointcloud/pointcloud.git

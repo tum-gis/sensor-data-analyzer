@@ -1,9 +1,0 @@
-{
-  "identifier": "core:AppearanceProperty",
-  "table": "property",
-  "join": {
-    "table": "appearance",
-    "fromColumn": "val_appearance_id",
-    "toColumn": "id"
-  }
-}

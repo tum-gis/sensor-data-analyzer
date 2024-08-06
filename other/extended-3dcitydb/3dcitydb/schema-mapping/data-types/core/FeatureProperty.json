@@ -1,9 +1,0 @@
-{
-  "identifier": "core:FeatureProperty",
-  "table": "property",
-  "join": {
-    "table": "feature",
-    "fromColumn": "val_feature_id",
-    "toColumn": "id"
-  }
-}
